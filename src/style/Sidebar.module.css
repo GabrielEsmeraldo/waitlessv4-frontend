@@ -1,0 +1,33 @@
+.sidebar {
+  background-color: var(--gray-100);
+  width: 400px;
+  height: 100%;
+  padding: 3.5rem;
+}
+
+.sidebar h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.sidebar li {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  list-style: none;
+}
+
+.sidebar a {
+  color: var(--black);
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  gap: 1rem;
+}
+
+.sidebar a:hover {
+  color: var(--blue-500);
+}

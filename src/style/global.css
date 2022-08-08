@@ -1,0 +1,29 @@
+:root {
+  font-size: 62.5%;
+
+  --black: #000000;
+
+  --gray-100: #E5E6E5;
+  --gray-200: #DADADA;
+  --blue-500: #0989EC;
+
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-200);
+}
+
+body,
+html,
+button,
+input,
+span {
+  font-family: 'Inter', sans-serif;
+}

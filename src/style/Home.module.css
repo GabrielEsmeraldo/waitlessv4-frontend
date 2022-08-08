@@ -1,0 +1,109 @@
+.home h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+
+}
+
+.titleBorder {
+  width: 80px;
+  height: 6px;
+  border-radius: 999px;
+  background-color: var(--blue-500);
+  margin-bottom: 3rem;
+}
+
+.home span {
+  font-weight: 700;
+}
+
+.home h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.cardSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.6rem;
+}
+
+.card {
+  width: 33.4rem;
+  height: 112px;
+  background-repeat: no-repeat;
+  padding: 1.6rem;
+}
+
+.card strong {
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.8rem;
+  color: var(--white);
+}
+
+.card span {
+  color: var(--white);
+  font-style: italic;
+  font-size: 5rem;
+}
+
+.onHoldCustomers {
+  background-image: url(../assets/onHoldCustomers.png);
+}
+
+.preferedCustomers {
+  background-image: url(../assets/preferedCustomers.png);
+}
+
+.todayCustomers {
+  background-image: url(../assets/todayCustomers.png);
+}
+
+.totalCustomers {
+  background-image: url(../assets/totalCustomers.png);
+}
+
+
+.lastPasswords {
+  width: 100%;
+  height: 100px;
+  background-color: brown;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  font-size: 1.8rem;
+  border-collapse: collapse;
+  border-radius: 8px;
+  background-color: var(--gray-100);
+  overflow: hidden;
+
+}
+
+.table thead {
+  background-image: linear-gradient(to left, #928DAB5E, #E4E5E6);
+  text-align: left;
+}
+
+.table th, td {
+  padding-inline: 4.6rem;
+  padding-block: 1.6rem;
+}
+
+.normal {
+  color: #00872E;
+  font-weight: 700;
+}
+
+.priority {
+  color: #F45C43;
+  font-weight: 700;
+}
+
+.verySerious {
+  color: #C71818;
+  font-weight: 700;
+}

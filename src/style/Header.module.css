@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1.5rem;
+  padding-inline: 3.5rem;
+  background-color: var(--gray-100);
+  border-bottom: 2px solid var(--gray-200);
+}
+
+.user {
+  min-width: 400px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  gap: 2.7rem;
+}
+
+.username {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.signOutBtn {
+  height: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--black);
+}
+
+.signOutBtn a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.user button:hover a,
+.user button:hover {
+  color: var(--blue-500);
+}
+
